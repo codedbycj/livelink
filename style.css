@@ -1,0 +1,53 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #f5f7fa;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#profile {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#profile img {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #0366d6;
+  margin-bottom: 1rem;
+}
+
+#stats, #projects {
+  margin-bottom: 3rem;
+}
+
+#repo-list {
+  list-style: none;
+  padding: 0;
+}
+
+#repo-list li {
+  background: white;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+#repo-list li:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
